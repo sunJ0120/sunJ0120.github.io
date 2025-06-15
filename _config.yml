@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "ko-KR"
 title                    : "나의 개발일지"
 title_separator          : "|"
-subtitle                 : "Be happy"
+subtitle                 : "I move forward, focusing only on myself"
 name                     : "sunJ0120"
 description              : "코린이의 우당탕탕 개발일지"
 url                      : "https://sunJ0120.github.io"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "sunJ0120"
   avatar           : "/assets/images/kkobugi.png"
-  bio              : "먹고자고 커밋하고"
+  bio              : "먹고 자고 커밋하고"
   location         : "아이스크림 가게🍦"
   email            :
   links:
@@ -156,6 +156,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  # - assets/music
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

@@ -7,6 +7,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 author_profile : true
+permalink: /github/organization
 ---
 
 > 🥰 깃허브 갖고놀기 기록집

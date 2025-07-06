@@ -2,7 +2,7 @@
 title: "[신한 DS SW아카데미 / 1차 프로젝트] [BE] User main 리팩터링 하기"
 layout: single
 categories: [project]
-tags : [project, refactor]
+tags : [shinhanDS, project, refactor]
 toc: true
 toc_sticky: true
 toc_label: 목차

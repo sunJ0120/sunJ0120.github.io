@@ -99,7 +99,7 @@ public class BookmarkDTO {
 - 이를 통해 해당 DTO는 어떤 객체를 참조하는지 등을 좀 더 명확하게 알 수 있다.
 - 마찬가지로, 이렇게 객체를 참조하는 방식으로 DTO를 구성할 경우, resultMap을 이용해야 한다.
 
-```java
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- [refactor] bookmark 위한 전용 mapper -->
 <!DOCTYPE mapper

@@ -26,7 +26,7 @@ permalink: /jira/1
 
 ## JIRA란?
 
-<img src="/images/2025-07-29-jira-intro/1.png" style="display: block; margin: 0 auto; width: 300px;" />
+![main](/images/2025-07-29-jira-intro/1.png)
 
 - 애자일 개발에 쓰이는 가장 대표적인 툴 중 하나이다.
 - 스크럼·칸반 보드를 제공해 반복적인 개발과 피드백 사이클을 쉽게 운영할 수 있게 해준다.
@@ -74,7 +74,7 @@ permalink: /jira/1
 
 ### 프로젝트 생성
 
-<img src="/images/2025-07-29-jira-intro/2.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-29-jira-intro/2.png)
 - JIRA의 경우는 프로젝트 단위로 관리된다.
 - 프로젝트를 하나 생성해보자.
 - JIRA의 경우, 프로젝트에 사용하기 좋은 여러가지 템플릿을 제공한다.
@@ -101,5 +101,5 @@ permalink: /jira/1
 
 - 🤔 개인적으로..Trello와 같은 칸반 방식은 별로 선호하지 않아서 일반적인 애자일 개발 룰을 명확하게 따르는 스크럼 템플릿으로 생성해보도록 하겠다.
 
-<img src="/images/2025-07-29-jira-intro/3.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-29-jira-intro/3.png)
 - 프로젝트 생성은 company가 아닌 team 기반 관리를 선택하여 생성하였다.

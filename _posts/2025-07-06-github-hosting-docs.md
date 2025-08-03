@@ -30,11 +30,11 @@ permalink: /github/io/docs/start
 - 기본적인 사용 방법은 해당 테마의 리드미, 사이트 기반으로 시도하였다.
 - [just-the-docs GitHub 저장소](https://github.com/just-the-docs/just-the-docs)
 
-<img src="/images/2025-07-06-github-hosting-docs/1.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs/1.png)
 
 - 해당 사이트의 use the template를 클릭한다.
 
-<img src="/images/2025-07-06-github-hosting-docs/2.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs/2.png)
 
 ```java
 sspur@sunj-PC MINGW64 /c/developer/GitHub
@@ -50,7 +50,7 @@ Resolving deltas: 100% (1/1), done.
 
 -  “use the template”으로 해당 레포를 가져온 다음에 clone한다.
 
-<img src="/images/2025-07-06-github-hosting-docs/3.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs/3.png)
 
 - 그 다음에 리드미에서 하라는 대로 Gemfile에 다음을 추가한다.
 
@@ -96,7 +96,7 @@ To https://github.com/sunJ0120/test_docs.git
 ```
 - config.yml 파일 변경 사항을 내 깃허브 레포에 올린다.
 
-<img src="/images/2025-07-06-github-hosting-docs/4.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs/4.png)
 
 - Settings > Pages > Build and devloyment에서 github actions 선택한다.
 - README에 따르면, 기존 프로젝트 안에 docs를 만들고, 거기서 action을 띄우는 방법도 있는데 이는 지금말고 차후에 해보기로 한다.
@@ -161,13 +161,13 @@ To https://github.com/sunJ0120/test_docs.git
 ```
 - Gemfile.lock을 커밋한다.
 
-<img src="/images/2025-07-06-github-hosting-docs/7.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs/7.png)
 - 워크플로우 업데이트 완료~
 
 ## 에러 해결 완료 후 호스팅 완료~
 
-<img src="/images/2025-07-06-github-hosting-docs/5.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs/5.png)
 - 사이트가 호스팅 되었다는 문구가 뜨면 사이트에 접근이 가능하다!
 
-<img src="/images/2025-07-06-github-hosting-docs/6.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs/6.png)
 - 초기 템플릿 모습이다~ 호스팅이 잘 된 것을 볼 수 있다.

@@ -31,14 +31,13 @@ pin: true #pin으로 main 고정해보기
 ```java
 bundle exec jekyll serve
 ```
-
-<img src="/images/2025-07-06-github-hosting-docs-st/1.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs-st/1.png)
 
 - 사이트 띄우기 완료~
 
 ## home 기본 내용 수정
 
-<img src="/images/2025-07-06-github-hosting-docs-st/2.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs-st/2.png)
 
 - 리드미를 보면, index.md를 고치면 된다고 한다.
 
@@ -53,7 +52,7 @@ hello world!😉
 ```
 - INDEX.md를 다음과 같이 고쳐보자.
 
-<img src="/images/2025-07-06-github-hosting-docs-st/3.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs-st/3.png)
 
 ## Configuration
 - 이제 하나하나 설정을 바꿔보면서 test해보는 작업을 해보자.
@@ -65,7 +64,7 @@ hello world!😉
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/aespa.png"
 ```
-<img src="/images/2025-07-06-github-hosting-docs-st/4.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs-st/4.png)
 
 - 에스파 노래중에서 girls 노래 타이틀이 제일 내 취향이라 이걸로 해보았다
 
@@ -80,7 +79,7 @@ favicon_ico: "/assets/images/favicon.ico"
     - 직접 만들어 보자.
         - 사이트 : [로고 메이커](https://ko.wix.com/logo/maker)
 
-<img src="/images/2025-07-06-github-hosting-docs-st/5.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs-st/5.png)
 - 에스파 느낌 내려고 ae text로 해봤는데, 이게 제일 힙해서 이걸로 했다.
 - 또한, favicon의 경우 확장자가 .ico라 변경해야 한다.
     -  사이트 : [png to ico 변환기](https://www.freeconvert.com/ko/png-to-ico)
@@ -120,7 +119,7 @@ heading_anchors: true
 ```
 - 헤딩 (제목)에 커서를 올렸을때, 링킹이 가능하게끔 하는 기능이다.
 
-<img src="/images/2025-07-06-github-hosting-docs-st/6.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs-st/6.png)
 
 - 그니까 요런걸 말하는 건데, 필요한 기능이라 추가한다.
 
@@ -167,14 +166,14 @@ nav_order: 2
 ---
 ```
 
-<img src="/images/2025-07-06-github-hosting-docs-st/7.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs-st/7.png)
 - 페이지 파일들은 전부 docs 안에 넣어준다.
 
 # 결과
-<img src="/images/2025-07-06-github-hosting-docs-st/8.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs-st/8.png)
 
 - 하위 네비게이션까지 구현이 잘 된 모습이다
 - favicon이 있기 때문에, 사이트 왼쪽에 로고가 생겼다.
 
-<img src="/images/2025-07-06-github-hosting-docs-st/10.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-github-hosting-docs-st/10.png)
 - 참고로 aux link가 false여서, 깃허브로 이동시 새 창이 안뜨고 바로 창이 변환된다.

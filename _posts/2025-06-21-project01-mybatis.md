@@ -15,7 +15,7 @@ permalink: /project01/mybatis01
 
 # 🤔 Intro
 
-<img src="/images/2025-06-21-project01-mybatis/2.gif" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-project01-mybatis/2.gif)
 
 - 현재 진행중인 1차 프로젝트의 메인 페이지 필터 기능의 경우, 다중 선택이 가능하다.
 - 다중 선택이 가능하므로, 어떤 필터가 추가되느냐에 따라 쿼리를 동적으로 구성해야 한다.

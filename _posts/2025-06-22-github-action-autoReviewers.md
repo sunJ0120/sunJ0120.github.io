@@ -26,16 +26,16 @@ permalink: /github/action/auto_reviewers
 ## git action 사용을 위한 토큰 생성
 - 기존에 사용하던 action 토큰이 있긴 하나, pr 리뷰어 전용으로 토큰을 하나 더 만들어보자.
 
-<img src="/images/2025-06-22-github-action-autoReviewers/1.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-22-github-action-autoReviewers/1.png)
 - settings > developer settings으로 들어간다.
 - 특정 레포지토리만 설정 & PR에 적용하기 위해 파인 그레인드 토큰 (Fine-grained)을 선택해서 생성해주자.
 
-<img src="/images/2025-06-22-github-action-autoReviewers/2.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-22-github-action-autoReviewers/2.png)
 - Resource Owner는 리뷰어 자동할당기능을 주입할 레포를 선택한다.
 - 만료일은 test token 이므로 30일로 짧게 지정하였다.
 - 또한 내가 선택한 레포 안에서만 사용이 가능하도록 지정하였다.
 
-<img src="/images/2025-06-22-github-action-autoReviewers/3.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-22-github-action-autoReviewers/3.png)
 - 다음으로는 Permission을 지정해준다.
 - 각각은 다음과 같이 권한을 선택해준다.
     - Actions : Read and Write
@@ -53,18 +53,18 @@ permalink: /github/action/auto_reviewers
 ## token 등록
 - yml 설정 파일에 secrets.GH_TOKEN라고 하여 secrets 변수에 GH_TOKEN을 등록해야 하므로, 위에서 발급한 토큰을 변수로 추가해야 한다.
 
-<img src="/images/2025-06-22-github-action-autoReviewers/5.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-22-github-action-autoReviewers/5.png)
 - repo > settings > Secrets and Variable > Action 을 클릭한다.
 
-<img src="/images/2025-06-22-github-action-autoReviewers/6.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-22-github-action-autoReviewers/6.png)
 - New repository secret을 클릭한다.
 
-<img src="/images/2025-06-22-github-action-autoReviewers/7.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-22-github-action-autoReviewers/7.png)
 - 아까 받은 GT_TOKEN을 변수로 등록한다.
 
 ## assign-reviewers.yml
 - 참고로 나는 dev > main으로 pr을 test할 것이므로, 이 파일은 base branch인 main에 올라가 있어야 한다.
-<img src="/images/2025-06-22-github-action-autoReviewers/4.png" style="display: block; margin: 0 auto;" />
+  ![main](/images/2025-06-22-github-action-autoReviewers/4.png)
 - 해당 설정 파일을 .github/workflows/아래에 넣어준다.
 
 ```yml
@@ -140,11 +140,11 @@ await github.rest.pulls.requestReviewers({
 - 이제 리뷰어 자동 주입이 잘 반영 되었는지 TEST 하기 위해 PR을 하나 생성해서 리뷰어를 살펴보자.
 - 나의 경우는 pr 생성을 위해 dev에서 이미지 파일 두개를 제거한 후 dev > main으로 가는 pr을 하나 생성하였다.
 
-<img src="/images/2025-06-22-github-action-autoReviewers/8.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-22-github-action-autoReviewers/8.png)
 - Create pull request를 클릭한다.
 
-<img src="/images/2025-06-22-github-action-autoReviewers/9.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-22-github-action-autoReviewers/9.png)
 - Action이 실행되고 나면 다음과 같이 Assign Reviewers 라는 이름의 yml 파일이 오류없이 잘 실행되었다는 것을 알 수 있다.
 
-<img src="/images/2025-06-22-github-action-autoReviewers/10.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-22-github-action-autoReviewers/10.png)
 - Action 성공 후 Reviewers도 설정 했던대로 자동으로 잘 들어온 것을 확인할 수 있다:)

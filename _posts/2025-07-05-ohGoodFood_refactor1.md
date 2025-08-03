@@ -28,7 +28,7 @@ permalink: /project01/usermain/BE/refactor
 ## 화면명세
 - 일단은, 기능의 플로우를 어느정도 알아야 리팩토링 코드 이해가 가능하므로 간단한 user main 화면 명세 및 요구사항들을 알아보자.
 
-<img src="/images/2025-07-05-ohGoodFood_refactor1/user_main.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-05-ohGoodFood_refactor1/user_main.png)
 - main 화면의 명세는 다음과 같다.
     - 검색어를 통한 검색이 가능하며, 검색시 “위치 정보”가 적용되지 않게끔 한다. (검색어에 해당하는 모든 지역을 검색 가능)
     - "예약 가능만" 등의 버튼을 통해 조건에 맞는 가게 필터링이 가능하다.
@@ -39,7 +39,7 @@ permalink: /project01/usermain/BE/refactor
     - 가게 마감시, 상세 정보로 들어갈 수 없다. (오픈전)
     - main 화면에 있는 리스트, 지도에는 같은 필터가 적용된다. (즉, 연동되어 있다.)
 
-<img src="/images/2025-07-05-ohGoodFood_refactor1/user_map.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-05-ohGoodFood_refactor1/user_map.png)
 - main 화면 지도 tab의 명세는 다음과 같다.
     - 마감인 가게는 클릭할 수 없다는 것은 main과 동일하다.
     - “이 위치에서 검색” 버튼을 누를 경우, center값을 현재 지도와 같게 조정해서 해당 위치 안의 가게를 띄운다.

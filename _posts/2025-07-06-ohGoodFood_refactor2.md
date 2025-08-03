@@ -23,7 +23,7 @@ permalink: /project01/userbookmark/BE/refactor
 
 ## 화면명세
 - bookmark 화면의 화면 명세는 다음과 같다.
-<img src="/images/2025-07-06-ohGoodFood_refactor2/1.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-ohGoodFood_refactor2/1.png)
 
 1. 별을 이용해서 북마크 추가 삭제가 가능하다.
 2. 마감, 오픈 여부가 보인다.
@@ -32,7 +32,7 @@ permalink: /project01/userbookmark/BE/refactor
 5. 판매가와 원가가 나와있다.
 6. 가게 대표 이미지가 존재한다.
 
-<img src="/images/2025-07-06-ohGoodFood_refactor2/2.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-06-ohGoodFood_refactor2/2.png)
 1. 다음과 같이 별을 눌러서 북마크가 삭제될 경우, 흐려진다.
 2. 별을 다시 누르면 북마크를 다시 추가할 수 있다.
 

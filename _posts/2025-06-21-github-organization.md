@@ -26,36 +26,36 @@ permalink: /github/organization
 - Github Organization을 조직하고 권한을 부여하는 방법을 학습한다.
 
 ## Organization 생성
-<img src="/images/2025-06-21-github-organization/1.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/1.png)
 - 깃허브에 접속 후 로그인을 해서 내 계정에 접속한다.
 - 상단에 + 버튼 클릭 > New organization을 클릭한다.
 
-<img src="/images/2025-06-21-github-organization/2.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/2.png)
 - 여러 organization 옵션이 있는데, Free를 선택해준다.
 
-<img src="/images/2025-06-21-github-organization/3.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/3.png)
 - 이제 test용 Organization을 생성해보자!
 - Organization name과 대표 contact email을 설정해주면 된다.
 
-<img src="/images/2025-06-21-github-organization/4.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/4.png)
 - 다음으로 우리 Organization에 추가할 사람을 선택한다.
 - 나의 경우는 현재 test용 Organization이므로, 내 부계정을 선택해서 추가해주었다.
 
-<img src="/images/2025-06-21-github-organization/5.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/5.png)
 - 초대를 받은 사람은 자신의 이메일에 온 초대 링크를 타고 들어가면 Organization에 참여가 가능하다!
 
-<img src="/images/2025-06-21-github-organization/6.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/6.png)
 - 현재 Organization에 나와, 내가 추가한 멤버까지 총 두 명의 People이 추가된 것을 볼 수 있다!
 
 ## Repository 생성
-<img src="/images/2025-06-21-github-organization/7.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/7.png)
 - 조직을 구성했으니 프로젝트에 사용할 Repository를 하나 생성해보자!
 - 상단에 Repository를 클릭한다.
 
-<img src="/images/2025-06-21-github-organization/8.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/8.png)
 - new Repository 클릭
 
-<img src="/images/2025-06-21-github-organization/9.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/9.png)
 - Repository 생성 정보들을 입력한다.
 - 나의 경우는, test Repo이기 때문에 private로 설정해주었다.
 
@@ -63,26 +63,26 @@ permalink: /github/organization
 - member 단위로 권한을 관리할 수도 있지만, team 단위로 묶어서 관리도 가능하다.
 - 그러므로 Team을 생성하는 방법을 알아보자!
 
-<img src="/images/2025-06-21-github-organization/10.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/10.png)
 - team > new team을 클릭한다.
 
-<img src="/images/2025-06-21-github-organization/11.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/11.png)
 - 다음과 같이  create Team으로 team을 하나 만들어준다.
 
-<img src="/images/2025-06-21-github-organization/12.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/12.png)
 - 해당하는 team에 추가하고 싶은 멤버들을 추가하면 team 생성이 완료된다.
 
 ## member 권한 관리
 - 팀 프로젝트를 진행할 경우, 팀장의 권한은 admin으로, 팀원의 권한은 Write로 설정해 주는 것 이 좋다.
 - 그러므로 멤버별로 권한을 설정하는 방법을 알아보자.
 
-<img src="/images/2025-06-21-github-organization/13.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/13.png)
 - repo로 이동해서 settings를 클릭한다.
 
-<img src="/images/2025-06-21-github-organization/14.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/14.png)
 - Collaborators and teams을 선택한다.
 
-<img src="/images/2025-06-21-github-organization/16.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-06-21-github-organization/15.png)
 - Add people에서 추가할 멤버들을 선택하고, 권한을 부여한다.
 - Team 단위로 권한 부여도 가능하다.
 - 나의 경우는 내 부계정, 내 본계정 두 개로 test 중이기 때문에 Add people로 진행하였다:)

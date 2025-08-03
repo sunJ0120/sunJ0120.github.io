@@ -20,17 +20,15 @@ permalink: /jira/2
 # 😀 Start!
 
 ## 목표
-
 - JIRA 사용법을 익힌다.
 - JIRA의 "요약"페이지에 대해서 익힌다.
 
 ## 요약
-
-<img src="/images/2025-07-29-jira-summary/1.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-29-jira-summary/1.png)
 - 요약(Summary) 창은 이슈를 클릭했을 때 나오는 **상세 정보 화면의 상단 영역**으로, 이슈의 핵심 내용을 빠르게 파악할 수 있게 도와준다.
 - 실제로 한 번 살펴보기 위해 임시 에픽을 3개 만들고 살펴보자.
 
-<img src="/images/2025-07-29-jira-summary/2.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-29-jira-summary/2.png)
 
 ## 1. 상태 개요
 

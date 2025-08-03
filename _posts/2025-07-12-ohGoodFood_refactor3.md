@@ -26,9 +26,9 @@ permalink: /project01/userOrder/BE/refactor
 - bookmark 화면의 화면 명세는 다음과 같다.
 <table style="margin: 0 auto;">
   <tr>
-    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/intro1.jpg" style="display: block; margin: 0 auto;" /></td>
-    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/intro2.jpg" style="display: block; margin: 0 auto;" /></td>
-    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/intro3.jpg" style="display: block; margin: 0 auto;" /></td>
+    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/intro1.jpg" alt="" style="display: block; margin: 0 auto;" /></td>
+    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/intro2.jpg" alt="" style="display: block; margin: 0 auto;" /></td>
+    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/intro3.jpg" alt="" style="display: block; margin: 0 auto;" /></td>
   </tr>
 </table>
 
@@ -472,8 +472,8 @@ public class UserOrderController {
 
 <table style="margin: 0 auto;">
   <tr>
-    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/1.jpg" style="display: block; width : 200pt;" /></td>
-    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/2.jpg" style="display: block; width : 200pt;" /></td>
-    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/3.png" style="display: block; width : 200pt;" /></td>
+    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/1.jpg" alt="" style="display: block; width : 200pt;" /></td>
+    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/2.jpg" alt="" style="display: block; width : 200pt;" /></td>
+    <td><img src="/images/2025-07-12-ohGoodFood_refactor3/3.png" alt="" style="display: block; width : 200pt;" /></td>
   </tr>
 </table>

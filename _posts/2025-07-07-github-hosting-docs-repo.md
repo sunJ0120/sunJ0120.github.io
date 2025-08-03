@@ -26,14 +26,14 @@ permalink: /github/io/docs/existing-repo
 
 ## docs 파일 가져오기
 1. 내가 만들어 뒀던 test-docs를 zip으로 내려받는다.
-<img src="/images/2025-07-07-github-hosting-docs-repo/1.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-07-github-hosting-docs-repo/1.png)
 
 2. 해당 docs를 올리고 싶은 내 organization test 레포를 클론해서 로컬에 연결한다.
-<img src="/images/2025-07-07-github-hosting-docs-repo/2.png" style="display: block; margin: 0 auto;" />
+   ![main](/images/2025-07-07-github-hosting-docs-repo/2.png)
 
 3. .github/workflows 폴더를 만들어서 zip 파일로 받은 것 중, pages.yml을 넣는다.
  - 리드미에 따르면, action은 이 workflow 디렉토리에서 이 YML을 찾아서 실행한다고 한다.
-   <img src="/images/2025-07-07-github-hosting-docs-repo/3.png" style="display: block; margin: 0 auto;" />
+   ![main](/images/2025-07-07-github-hosting-docs-repo/3.png)
  - 해당 yml 파일은 다운받은 zip 파일의 workflow 안에 있다.
 
 ## pages.yml 파일 고치기
@@ -87,7 +87,7 @@ on:
 - on 라인의 paths에 docs/**를 추가한다.
 - 마찬가지로 트리거 역시 docs/ 변화를 추적하도록 하기 위함이다.
 
-<img src="/images/2025-07-07-github-hosting-docs-repo/5.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-07-github-hosting-docs-repo/5.png)
 
 - 나머지 파일들은 다음과 같이 옮겨준다.
 - docs 안에 zip 파일에 들어있던 assets, _config.yml 설정 파일, Gemfile, index.md를 넣어주면 된다.
@@ -96,13 +96,13 @@ on:
 
 ## 브랜치에 push
 
-<img src="/images/2025-07-07-github-hosting-docs-repo/4.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-07-github-hosting-docs-repo/4.png)
 
 - 현재 브랜치 상태이다. docs가 잘 반영된 것을 볼 수 있다.
 - 또한 action 주입도 성공적으로 완료되었다.
 
 ## 결과
 
-<img src="/images/2025-07-07-github-hosting-docs-repo/6.png" style="display: block; margin: 0 auto;" />
+![main](/images/2025-07-07-github-hosting-docs-repo/6.png)
 
 - 사이트가 원하는 방향으로 잘 호스팅 된 것을 볼 수 있다.

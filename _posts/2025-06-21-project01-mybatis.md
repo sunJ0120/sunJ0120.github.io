@@ -94,7 +94,8 @@ function sendFilterRequest() {
 - .productWrapper 영역만 갈아 끼우면 되므로, 이 영역을 지정한다.
 
 - fragment는 따로 파일을 빼야 해서 다음과 같이 파일을 분리해서 복사해주었다.
-<img src="/images/2025-06-21-project01-mybatis/1.png" style="display: block; margin: 0 auto;" />
+
+![main](/images/2025-06-21-project01-mybatis/1.png)
 - 파일 경로는 반드시 MvcConfig.java 설정에 있는 뷰 리졸버 경로에 맞춰준다.
 
 ## UserMapper.java

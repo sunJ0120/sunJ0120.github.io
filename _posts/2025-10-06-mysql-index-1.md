@@ -1,5 +1,5 @@
 ---
-title: "🎱 MySQL 인덱스 실습 - 최대 83배 성능 개선 경험기"
+title: "🎱 MySQL 인덱스 실습 - 최대 83% 성능 개선 경험기"
 layout: post
 categories: [MySQL, RDBMS]
 tags: [MySQL, index]
@@ -591,7 +591,6 @@ Date:   Mon Oct 6 19:58:16 2025 +0900
 
 sspur@sunj-PC MINGW64 /c/developer/GitHub/study_repo/RealMySQL (main)
 $ git push origin v1.0-basic-index
-
 ```
 
 참고로 이건 보너스인데, 인덱스의 경우는 계속 버전 업을 할 예정이라 태그를 달아두었다.

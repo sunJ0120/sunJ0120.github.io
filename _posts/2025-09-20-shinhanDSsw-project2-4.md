@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 author_profile: true
-permalink: /project/2/architecture
+permalink: /project/2/architecture/2
 ---
 
 # 🖤 Intro

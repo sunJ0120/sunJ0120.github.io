@@ -7,7 +7,7 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 author_profile: true
-permalink: /MySQL/index/1
+permalink: /MySQL/index/2
 ---
 
 # 🖤 Intro
